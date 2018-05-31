@@ -1,0 +1,11 @@
+C:\Users\Administrator\Documents\Avatar Guard\Avatar Guard\bin\Debug\Avatar Guard.exe.config
+C:\Users\Administrator\Documents\Avatar Guard\Avatar Guard\bin\Debug\Avatar Guard.exe
+C:\Users\Administrator\Documents\Avatar Guard\Avatar Guard\bin\Debug\Avatar Guard.pdb
+C:\Users\Administrator\Documents\Avatar Guard\Avatar Guard\obj\Debug\Avatar_Guard.Guard.resources
+C:\Users\Administrator\Documents\Avatar Guard\Avatar Guard\obj\Debug\Avatar_Guard.Login.resources
+C:\Users\Administrator\Documents\Avatar Guard\Avatar Guard\obj\Debug\Avatar_Guard.Properties.Resources.resources
+C:\Users\Administrator\Documents\Avatar Guard\Avatar Guard\obj\Debug\Avatar Guard.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\Avatar Guard\Avatar Guard\obj\Debug\Avatar Guard.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Avatar Guard\Avatar Guard\obj\Debug\Avatar Guard.exe
+C:\Users\Administrator\Documents\Avatar Guard\Avatar Guard\obj\Debug\Avatar Guard.pdb
+C:\Users\Administrator\Documents\Avatar Guard\Avatar Guard\obj\Debug\Avatar Guard.csprojAssemblyReference.cache
