@@ -24,8 +24,8 @@ namespace Avatar_Guard
             {
                 if(Value.access_token != "")
                 {
-                    access_token.Text = Value.access_token;
-                    Value.access_token = "";
+                    access_token.Text = Value.access_token; //add access_token to textbox
+                    Value.access_token = ""; //reset access_token value
                 }
             };
         }
@@ -42,7 +42,7 @@ namespace Avatar_Guard
 
                     if (profile.Contains("id"))
                     {
-                        string URI = "https://nghia.org/public/api/v1/jsonCompile.php";
+                        string URI = "https://nghia.org/public/api/v1/jsonCompile.php"; //API parse JSON (because project no use Newtonsoft JSON)
                         string GetID = "str=" + profile + "&value=id";
 
                         using (WebClient wc = new WebClient())
@@ -58,7 +58,7 @@ namespace Avatar_Guard
                         MessageBox.Show("Wrong access_token!", "Guard error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
-                catch (Exception o)
+                catch
                 {
                     MessageBox.Show("Wrong access_token!", "Guard error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
@@ -82,7 +82,7 @@ namespace Avatar_Guard
 
                     if (profile.Contains("id"))
                     {
-                        string URI = "https://nghia.org/public/api/v1/jsonCompile.php";
+                        string URI = "https://nghia.org/public/api/v1/jsonCompile.php"; //API parse JSON (because project no use Newtonsoft JSON)
                         string GetID = "str=" + profile + "&value=id";
 
                         using (WebClient wc = new WebClient())
@@ -98,7 +98,7 @@ namespace Avatar_Guard
                         MessageBox.Show("Wrong access_token!", "Un-Guard error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
-                catch (Exception o)
+                catch
                 {
                     MessageBox.Show("Wrong access_token!", "Un-Guard error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
@@ -143,7 +143,7 @@ namespace Avatar_Guard
             }
             catch (Exception o)
             {
-                MessageBox.Show("Response server has crashed! " + o, "Guard Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Response server has crashed! ", "Guard Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -159,6 +159,7 @@ namespace Avatar_Guard
             }
             catch (Exception o)
             {
+                //Connect failed to internet
                 access_token.Enabled = false; guardAvatar.Enabled = false; loginToken.Enabled = false;
                 MessageBox.Show("Please connect to internet!", "Internet require", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 Environment.Exit(0);
