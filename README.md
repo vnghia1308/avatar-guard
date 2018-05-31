@@ -5,7 +5,7 @@ Turn on shield for your profile picture on Facebook.
 * API source: Puaru - [Vina4u](https://vina4u.vn/)
 * Code/Develop/Creator: Vy Nghia
 
-> Project using PHP API of my server. If you dont like, you can delete it!
+> Project using PHP API of my server. If you don't like, you can delete it!
 
 ## Author contacts
 Twitter: [@phamvynghia](https://twitter.com/phamvynghia)
