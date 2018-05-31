@@ -9,7 +9,9 @@ Turn on shield for your profile picture on Facebook.
 
 ## Author contacts
 Twitter: [@phamvynghia](https://twitter.com/phamvynghia)
+
 Facebook: [@nghiadev](https://www.facebook.com/nghiadev) or [@pagevynghia](https://www.facebook.com/pagevynghia/)
+
 
 Feedback for email: dev@nghia.org
 
