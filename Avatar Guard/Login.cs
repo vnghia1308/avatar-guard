@@ -21,7 +21,7 @@ namespace Avatar_Guard
             {
                 username.Enabled = false; password.Enabled = false; LoginFacebook.Enabled = false;
 
-                string URI = "https://nghia.org/public/api/v1/buildLogin.php";
+                string URI = "https://nghia.org/public/api/v1/buildLogin.php"; //API build login url 
                 string loginContent = "u=" + username.Text + "&p=" + password.Text;
 
                 using (WebClient wc = new WebClient())
@@ -49,7 +49,7 @@ namespace Avatar_Guard
                             MessageBox.Show("Can't not login, please try again!", "Login failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                     }
-                    catch (Exception o)
+                    catch
                     {
                         MessageBox.Show("Response server has crashed!", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
